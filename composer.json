@@ -7,14 +7,16 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "endroid/qr-code": "^5.0",
+        "nelmio/cors-bundle": "^2.4",
+        "predis/predis": "^2.2",
+        "snc/redis-bundle": "^4.7",
         "symfony/console": "7.0.*",
         "symfony/dotenv": "7.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.0.*",
         "symfony/runtime": "7.0.*",
         "symfony/yaml": "7.0.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
@@ -64,5 +66,8 @@
             "allow-contrib": false,
             "require": "7.0.*"
         }
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.54"
     }
 }

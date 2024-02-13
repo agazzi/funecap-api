@@ -1,0 +1,7 @@
+snc_redis:
+    clients:
+        cache:
+            type: predis
+            alias: cache
+            dsn: '%env(resolve:REDIS_DSN)%'
+            logging: '%kernel.debug%'
